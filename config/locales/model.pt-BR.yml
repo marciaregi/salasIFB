@@ -1,0 +1,12 @@
+"pt-BR"
+en:
+  activerecord:
+    models:
+      door: Porta
+    attributes:
+      door:
+        initials: "Sigla"
+        description: "Nome da sala"
+        phone: "Telefone"
+        number: "Número da sala"
+        schedule: "Hórario de funcionamento"

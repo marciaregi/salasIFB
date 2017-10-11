@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Initials:</strong>
+  <%= @door.initials %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @door.description %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @door.phone %>
+</p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @door.number %>
+</p>
+
+<p>
+  <strong>Schedule:</strong>
+  <%= @door.schedule %>
+</p>
+
+<%= link_to 'Edit', edit_door_path(@door) %> |
+<%= link_to 'Back', doors_path %>
